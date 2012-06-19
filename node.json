@@ -1,0 +1,6 @@
+{
+  "name": "hadoop-node",
+  "run_list": [
+    "recipe[hadoop]"
+  ]
+}
