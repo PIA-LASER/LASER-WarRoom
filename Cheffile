@@ -7,11 +7,11 @@ cookbook 'rvm',
   :git => 'https://github.com/fnichol/chef-rvm'
 
 cookbook 'apt',
-    git: 'https://github.com/fnichol/chef-apt'
-
-cookbook 'git',
-    git: 'https://github.com/fnichol/chef-git.git'
+  :git => 'https://github.com/fnichol/chef-apt'
 
 cookbook 'build-essential'
+
+cookbook 'hadoop',
+  :path => 'vendor/cookbooks/hadoop'
 
 cookbook 'java'
